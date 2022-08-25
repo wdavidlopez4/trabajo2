@@ -1,4 +1,5 @@
-﻿using trabajo2.Entities;
+﻿using trabajo2.Agregacion;
+using trabajo2.Entities;
 using trabajo2.Entities1;
 
 //------------------------------------------------------entidades
@@ -22,3 +23,8 @@ vehiculo2.Arrancar();
 
 Entity1 per = new Persona();
 per.Arrancar();
+
+
+
+//------------------------------------asociacio
+var estudiante = new Estudiante(new Escuela());
